@@ -26,6 +26,19 @@ const GlobalStyles = createGlobalStyle`
     --space-lg:   3.2rem;
     --space-xl:   5.2rem;
     --space-xxl:  8.4rem;
+
+    /* colors */
+
+    --color-gray-50: #F9FAFB;
+    --color-gray-100: #F3F4F6;
+    --color-gray-200: #E5E7EB;
+    --color-gray-300: #D1D5DB;
+    --color-gray-400: #9CA3AF;
+    --color-gray-500: #6B7280;
+    --color-gray-600: #4B5563;
+    --color-gray-700: #374151;
+    --color-gray-800: #1F2937;
+    --color-gray-900: #111827;
     
     *,
     *::before,
@@ -42,7 +55,7 @@ const GlobalStyles = createGlobalStyle`
     body {
         font-family: 'Roboto', serif;
         font-weight: 500;
-        color: black; //placeholder color for text
+        color: var(--color-gray-800);
         min-height: 100vh;
         line-height: 1.5;
     }
@@ -65,7 +78,7 @@ const GlobalStyles = createGlobalStyle`
 
     select:disabled,
     input:disabled {
-        background-color: gray; //set gray color after adding all the colors I need
+        background-color: var(--color-gray-500);
         outline-offset: -1px;
     }
 

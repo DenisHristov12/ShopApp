@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const StyledLayout = styled.div`
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 4rem 1fr;
 `;
 
 function Layout() {
